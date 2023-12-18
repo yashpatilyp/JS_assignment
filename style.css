@@ -1,0 +1,33 @@
+body{
+      background-color: black;
+     padding: 10px;
+
+}
+
+.container{
+     
+          margin-top: 100px;
+          margin-bottom: 200px;
+         padding: 50px;
+        border: 2px solid white;
+        border-radius: 10px;
+}
+
+.container h1, button{
+          background-image: linear-gradient(to right ,red,rgb(10, 10, 246),red);
+          padding: 10px;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         color: aliceblue;
+        
+}
+label{
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          
+          
+}
+.form-control ,.form-select {
+      font-weight: bold;
+      text-align: center;
+  }
+

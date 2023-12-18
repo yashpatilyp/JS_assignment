@@ -1,0 +1,36 @@
+index.html :
+
+   firstly create index.html file in that html basic structure is created in head add the links of bootstrap 
+   and external css and javascript files .
+   The main content is wrapped in a <div> with the classes container and text-center.
+   An <h1> element with the class mt-3 for styling represents the title.
+
+   Three input fields are set up within a grid layout using Bootstrap classes (col-md-4 and col-12).
+   Labels and placeholders are appropriately used for clarity.
+   The operator dropdown and the number input fields have onchange events linked to the resetResult() function.
+   A submit button with the class btn btn-primary triggers the calculate() function on click.
+
+style.css :
+
+   Background color of the body is set to black.
+   Padding of 20 pixels is applied to the body.
+
+   for h1 tag Background image is a linear gradient from red to blue to red.
+   Padding of 10 pixels is applied.
+
+   Styles for a container class are defined.
+   Top margin is set to 100 pixels, and bottom margin is set to 200 pixels.
+   Padding is applied with 50 pixels.
+   Border is set to 2 pixels solid white with a border-radius of 10 pixels.
+
+script.js :
+
+   when any of the input fields or the operator dropdown  is changed.
+   resetResult function is created to reset the result field to a blank value.
+   The result field  is set to an empty .
+
+   calculate function retrieves the values of inputField1, inputField2, and the selected operator from the dropdown.
+   It then performs a calculation based on the selected operator using a switch statement.
+   The result is stored in the result variable.
+   The calculated result is displayed in the result field .
+   The parseFloat function is used to convert the input values to floating-point numbers.
