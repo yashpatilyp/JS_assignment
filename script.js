@@ -12,29 +12,29 @@
           const calculate = () => {
                     // Get input values and operator
                     var num1 = parseFloat(document.getElementById("inputField1").value);
-                    var num3 = parseFloat(document.getElementById("inputField2").value);
+                    var num2 = parseFloat(document.getElementById("inputField2").value);
                     var operator = document.getElementById("operatorDropdown").value;
           
                     // Perform calculation based on the selected operator
                     var result;
                     switch (operator) {
                     case "+":
-                    result = num1 + num3;
+                    result = num1 + num2;
                     break;
                     case "-":
-                    result = num1 - num3;
+                    result = num1 - num2;
                     break;
                     case "*":
-                    result = num1 * num3;
+                    result = num1 * num2;
                     break;
                     case "/":
-                    result = num1 / num3;
+                    result = num1 / num2;
                     break;
                     default:
                     result = "Invalid operator";
                     }
           
-                    // Display the result
+                    // Display result
                     document.getElementById("result").value = result;
           };
           
